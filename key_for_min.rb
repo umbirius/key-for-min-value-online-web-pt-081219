@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
     elsif value < temp_value
       temp_value = value 
       temp_key = key
+    end 
   end 
   temp_key
 end
